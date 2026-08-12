@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MICE — Тайны Камчатки</title>
+  <link rel="stylesheet" href="assets/tk-pages.css" />
+</head>
+<body>
+  <div class="tk-preview-banner">Превью · MICE · <a href="preview.html">главная</a></div>
+  <div class="tk-root">
+    <header class="tk-header tk-header--solid">
+      <div class="tk-wrap tk-header__inner">
+        <a class="tk-logo" href="preview.html">
+          <img class="tk-logo__mark" src="assets/logo.png" width="40" height="40" alt="" />
+          <span class="tk-logo__text">Тайны Камчатки</span>
+        </a>
+        <nav class="tk-nav tk-nav--desktop">
+          <a href="programmy/index.html">Программы</a>
+          <a href="mice.html" class="is-active">MICE</a>
+          <a href="preview.html#inquire">Обсудить</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="tk-hero" style="min-height:70vh">
+      <div class="tk-hero__media">
+        <img src="https://images.pexels.com/photos/14718804/pexels-photo-14718804.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="" />
+        <div class="tk-hero__overlay"></div>
+      </div>
+      <div class="tk-wrap tk-hero__content">
+        <p class="tk-section__label">MICE &amp; Corporate</p>
+        <h1>Камчатка<br />для вашей команды</h1>
+        <p class="tk-hero__lead">Закрытая территория · конференц-зал · вертолёт · ресторан 50 мест · консьерж 24/7</p>
+        <a class="tk-btn tk-btn--primary" href="#mice-form">Запросить предложение</a>
+      </div>
+    </section>
+
+    <section class="tk-section tk-section--surface">
+      <div class="tk-wrap">
+        <h2 class="tk-reveal" style="font-family:var(--tk-font-display);font-size:2.5rem;margin-bottom:48px">Форматы</h2>
+        <div class="tk-scenarios">
+          <div class="tk-scenario tk-reveal">
+            <h3>Strategic retreat</h3>
+            <p>2–3 ночи · конференц · баня · мягкая программа</p>
+          </div>
+          <div class="tk-scenario tk-reveal">
+            <h3>Incentive expedition</h3>
+            <p>Вертолёт для группы · гастроужин · incentive</p>
+          </div>
+          <div class="tk-scenario tk-reveal">
+            <h3>Executive offsite</h3>
+            <p>Buyout базы · индивидуальный маршрут · VIP-трансфер</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tk-section">
+      <div class="tk-wrap tk-split">
+        <div>
+          <p class="tk-section__label">Infrastructure</p>
+          <h2 style="font-family:var(--tk-font-display);font-size:2rem">Инфраструктура</h2>
+          <ul style="color:var(--tk-cream-muted);line-height:1.8">
+            <li>Конференц-зал 50 м² · TV · флипчарт</li>
+            <li>Ресторан 50 мест · банкет · AV</li>
+            <li>25 номеров · 5 домов</li>
+            <li>Bell 429 на площадке</li>
+            <li>Трансфер · бизнес-зал аэропорта</li>
+          </ul>
+        </div>
+        <div class="tk-split__media">
+          <img src="https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="tk-section tk-section--surface" id="mice-form">
+      <div class="tk-wrap">
+        <h2 style="font-family:var(--tk-font-display);font-size:2rem;margin-bottom:24px">Запросить предложение</h2>
+        <form class="tk-form">
+          <label>Компания<input type="text" name="company" /></label>
+          <label>Контакт · должность<input type="text" name="contact" /></label>
+          <label>Email<input type="email" name="email" /></label>
+          <label>Телефон<input type="tel" name="phone" /></label>
+          <label>Даты · кол-во участников<input type="text" name="details" placeholder="Например: 12 человек, сентябрь 2026" /></label>
+          <label>Формат
+            <select name="format">
+              <option>Retreat</option>
+              <option>Incentive</option>
+              <option>Offsite</option>
+            </select>
+          </label>
+          <button class="tk-btn tk-btn--primary" type="submit">Отправить</button>
+        </form>
+      </div>
+    </section>
+  </div>
+  <script src="assets/tk-pages.js"></script>
+</body>
+</html>
